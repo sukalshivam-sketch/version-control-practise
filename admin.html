@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Panel - SmartCanteen</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Admin Dashboard</h1>
+
+<h2>Add Food Item</h2>
+<input type="text" id="foodName" placeholder="Food Name">
+<input type="number" id="foodPrice" placeholder="Price">
+<button onclick="addFood()">Add Item</button>
+
+<h2>Food List</h2>
+<table border="1">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Price</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody id="foodTable"></tbody>
+</table>
+
+<script src="admin.js"></script>
+</body>
+</html>
